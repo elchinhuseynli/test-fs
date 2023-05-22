@@ -1,1 +1,1 @@
-console.log('Hello world');
+"use strict";(()=>{var r=window.pageYOffset,t=document.querySelector(".navigation"),n=new IntersectionObserver((o,c)=>{o.forEach(s=>{let e=window.pageYOffset;s.isIntersecting?r>e&&(t.style.transform="translateY(0)"):r<e&&(t.style.transform="translateY(-120%)"),r=e})},{threshold:[.1]}),a=document.querySelector("#hero");n.observe(a);})();
